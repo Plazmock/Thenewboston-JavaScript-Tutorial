@@ -9,12 +9,18 @@
   </head>
   <body>
   	<script type="text/javascript">
-  		function apples(one, two) {
-  			document.write(one + " is better than " + two + "<br>");
+  		function doFirst() {
+  			document.write("I'm first <br>");
   		}
-  		apples("Tea", "coffe");
-  		apples("Tea", "coffe");
-  		apples("Tea", "coffe");
+  		function doSecond() {
+  			document.write("I'm second <br>");
+  		}
+  		function start() {
+  			doFirst();
+  			doSecond();
+  		}
+
+  		start();
   	</script>
   </body>
 </html>
